@@ -5,6 +5,7 @@ This code verifies GitHub app api access by
 1. Creates a signed `jwt` using the Github app private key
 2. Uses `curl` to send a request with the `jwt` token to verify the token
 
+It is based on the [official GitHub Ruby example](https://docs.github.com/en/developers/apps/building-github-apps/authenticating-with-github-apps#authenticating-as-a-github-app), converted into python.
 
 ## Setup
 - Create Github app
